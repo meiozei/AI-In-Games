@@ -1,0 +1,364 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Student/Documents/GitHub/AI-In-Games/AI-IN-GAMES_Finals
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52685
+Successfully changed project path to: C:/Users/Student/Documents/GitHub/AI-In-Games/AI-IN-GAMES_Finals
+C:/Users/Student/Documents/GitHub/AI-In-Games/AI-IN-GAMES_Finals
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21704] Host "[IP] 10.0.3.205 [Port] 0 [Flags] 2 [Guid] 807761815 [EditorId] 807761815 [Version] 1048832 [Id] WindowsEditor(7,ciit602pc10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21704] Host "[IP] 10.0.3.205 [Port] 0 [Flags] 2 [Guid] 807761815 [EditorId] 807761815 [Version] 1048832 [Id] WindowsEditor(7,ciit602pc10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Student/Documents/GitHub/AI-In-Games/AI-IN-GAMES_Finals/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007392 seconds.
+- Loaded All Assemblies, in  0.237 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.182 seconds
+Domain Reload Profiling: 417ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (182ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\AI-In-Games\AI-IN-GAMES_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\AI-In-Games\AI-IN-GAMES_Finals\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.350 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3529.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 2.588100 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.197400 ms  DeleteObjects: 0.086900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15180.564412 seconds.
+  path: Assets/Scenes/Assets/Ch40_nonPBR.fbm/WarriorSkin.mat
+  artifactKey: Guid(9b1cb80a7eb27b94382fb033edbccc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Ch40_nonPBR.fbm/WarriorSkin.mat using Guid(9b1cb80a7eb27b94382fb033edbccc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04ec22558cb62104167079100641e6c') in 0.078518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.233216 seconds.
+  path: Assets/Scenes/Assets/Ch40_nonPBR.fbm/WarriorSkin.mat
+  artifactKey: Guid(9b1cb80a7eb27b94382fb033edbccc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Ch40_nonPBR.fbm/WarriorSkin.mat using Guid(9b1cb80a7eb27b94382fb033edbccc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75825ad748a103c3cb2007d7203af0ca') in 0.013980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 104.822995 seconds.
+  path: Assets/Scenes/Assets/Maw J Laygo.fbm
+  artifactKey: Guid(6bde8347ada5c4a428d8e02cdaa757d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Maw J Laygo.fbm using Guid(6bde8347ada5c4a428d8e02cdaa757d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2e6c6cb16b7b7c83becc8c3fa793f2') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038048 seconds.
+  path: Assets/Scenes/Assets/Maw J Laygo.fbm/maria_specular.png
+  artifactKey: Guid(a5fcd691d18aba045a08cde4b4062599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Maw J Laygo.fbm/maria_specular.png using Guid(a5fcd691d18aba045a08cde4b4062599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b4c33f963a8806aa47669105808fca') in 0.036840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Assets/Maw J Laygo.fbm/MAW_normal.png
+  artifactKey: Guid(cb74d6706f056934887781100df16fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Maw J Laygo.fbm/MAW_normal.png using Guid(cb74d6706f056934887781100df16fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223ac1fcc9aee30c7752ea9a9c7b3818') in 0.011600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.629015 seconds.
+  path: Assets/Scenes/Assets/Maw J Laygo.fbm/Warrior.mat
+  artifactKey: Guid(5d649109118337343b4282ebb56930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Maw J Laygo.fbm/Warrior.mat using Guid(5d649109118337343b4282ebb56930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd535f513ed3550a88031144fcdf38654') in 0.009363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.439965 seconds.
+  path: Assets/Scenes/Assets/Maw J Laygo.fbm/Warrior.mat
+  artifactKey: Guid(5d649109118337343b4282ebb56930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Maw J Laygo.fbm/Warrior.mat using Guid(5d649109118337343b4282ebb56930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a353ed117d82691108a9c7ecf5ed49d') in 0.012161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.084310 seconds.
+  path: Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm
+  artifactKey: Guid(e6501f2e234c95444b6429a4ae0238d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm using Guid(e6501f2e234c95444b6429a4ae0238d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa64208d84116c830d7e0b108b6f30') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046256 seconds.
+  path: Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/skeletonZombie_body_diffuse.png
+  artifactKey: Guid(9d3243bc322d4aa4b83e4c9eb75db166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/skeletonZombie_body_diffuse.png using Guid(9d3243bc322d4aa4b83e4c9eb75db166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec716788a6f76b021f1f50181ffad98') in 0.013153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/skeletonZombie_specular.png
+  artifactKey: Guid(9b43a823eef7b2d41811b42181b58135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/skeletonZombie_specular.png using Guid(9b43a823eef7b2d41811b42181b58135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472e9da9eed8277e721b6560653b6d57') in 0.013189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.732979 seconds.
+  path: Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/Melee.mat
+  artifactKey: Guid(5b635513e68275146ba1608d7b4c76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/Melee.mat using Guid(5b635513e68275146ba1608d7b4c76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5659d7212cdebbe2555f43fbacf15095') in 0.024642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.094229 seconds.
+  path: Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/Melee.mat
+  artifactKey: Guid(5b635513e68275146ba1608d7b4c76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Skeletonzombie T Avelange.fbm/Melee.mat using Guid(5b635513e68275146ba1608d7b4c76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76697485f789fde4479147fad7392e8a') in 0.010770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.839076 seconds.
+  path: Assets/Scenes/Assets/Warrok W Kurniawan.fbm
+  artifactKey: Guid(ec0df29dcf4964b43b08c8d12dd962e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Warrok W Kurniawan.fbm using Guid(ec0df29dcf4964b43b08c8d12dd962e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629444bb151df6fa2f0b9b15a54342b5') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053489 seconds.
+  path: Assets/Scenes/Assets/Warrok W Kurniawan.fbm/bear_diffuse.png
+  artifactKey: Guid(ed27557ca5ce33a4e830575fc47ddc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Warrok W Kurniawan.fbm/bear_diffuse.png using Guid(ed27557ca5ce33a4e830575fc47ddc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09c6323f5f4be7e3b8c367e3e465691') in 0.012812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Assets/Warrok W Kurniawan.fbm/bear_specular.png
+  artifactKey: Guid(f9cfd2b43ec1ab541bc194deec77d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Warrok W Kurniawan.fbm/bear_specular.png using Guid(f9cfd2b43ec1ab541bc194deec77d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c52cb3e83d9a9a865f70603bc666f90') in 0.010442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.914542 seconds.
+  path: Assets/Scenes/Assets/Warrok W Kurniawan.fbm/Monster3.mat
+  artifactKey: Guid(4e88f489ce561fb4fa947416ebf40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Warrok W Kurniawan.fbm/Monster3.mat using Guid(4e88f489ce561fb4fa947416ebf40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3256a5417c9c38014fc05e13be2cf9') in 0.009771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.494066 seconds.
+  path: Assets/Scenes/Assets/Warrok W Kurniawan.fbm/Monster3.mat
+  artifactKey: Guid(4e88f489ce561fb4fa947416ebf40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Warrok W Kurniawan.fbm/Monster3.mat using Guid(4e88f489ce561fb4fa947416ebf40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894db1f64635dd0cc4f67d3434616690') in 0.011185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.283394 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm
+  artifactKey: Guid(54494bd2737f0f944b08bb2e4a032170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm using Guid(54494bd2737f0f944b08bb2e4a032170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c041841ab969d26111fb5bc4be7fbd80') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045170 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_diffuse.png
+  artifactKey: Guid(37cc2ef3290abfe4b89e26b8f43e5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_diffuse.png using Guid(37cc2ef3290abfe4b89e26b8f43e5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3622c28df72b30f2decd011b523f8a') in 0.013128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_normal.png
+  artifactKey: Guid(242421aa99a689c478b17227d66b55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_normal.png using Guid(242421aa99a689c478b17227d66b55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11416b4216ee041cef4a1e609f83116b') in 0.012072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_emission.png
+  artifactKey: Guid(4ebb9396e57445b45979c6634558ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm/Vampire_emission.png using Guid(4ebb9396e57445b45979c6634558ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91458f041833c7a60beb7228cb3ed379') in 0.009796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.876334 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm/vamp.mat
+  artifactKey: Guid(0be1a2970e3e9104290516fd9011dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm/vamp.mat using Guid(0be1a2970e3e9104290516fd9011dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf43734b377b75518d22f15d48dada5') in 0.023204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.847050 seconds.
+  path: Assets/Scenes/Assets/Vampire A Lusth.fbm/vamp.mat
+  artifactKey: Guid(0be1a2970e3e9104290516fd9011dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/Vampire A Lusth.fbm/vamp.mat using Guid(0be1a2970e3e9104290516fd9011dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eee233312f16c76bab2984cf27e0a04') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
